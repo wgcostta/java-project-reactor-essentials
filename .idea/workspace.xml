@@ -34,8 +34,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.MonoTest.monoSubscriberConsumerError">
-    <configuration name="MonoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MonoTest.monoDoOnMethods">
+    <configuration name="MonoTest.monoDoOnMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-reactor-essentials" />
       <extension name="coverage">
         <pattern>
@@ -45,22 +45,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="academy.devdojo.reactive.test" />
       <option name="MAIN_CLASS_NAME" value="academy.devdojo.reactive.test.MonoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MonoTest.monoSubscriber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project-reactor-essentials" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="academy.devdojo.reactive.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="academy.devdojo.reactive.test" />
-      <option name="MAIN_CLASS_NAME" value="academy.devdojo.reactive.test.MonoTest" />
-      <option name="METHOD_NAME" value="monoSubscriber" />
+      <option name="METHOD_NAME" value="monoDoOnMethods" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,6 +67,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MonoTest.monoSubscriberConsumerComplete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-reactor-essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.devdojo.reactive.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="academy.devdojo.reactive.test" />
+      <option name="MAIN_CLASS_NAME" value="academy.devdojo.reactive.test.MonoTest" />
+      <option name="METHOD_NAME" value="monoSubscriberConsumerComplete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MonoTest.monoSubscriberConsumerError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-reactor-essentials" />
       <extension name="coverage">
@@ -98,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MonoTest.monoSubscriberConsumerSubscription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-reactor-essentials" />
       <extension name="coverage">
         <pattern>
@@ -108,7 +109,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="academy.devdojo.reactive.test" />
       <option name="MAIN_CLASS_NAME" value="academy.devdojo.reactive.test.MonoTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="monoSubscriberConsumerSubscription" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MonoTest.monoSubscriberConsumerError" />
+        <item itemvalue="JUnit.MonoTest.monoDoOnMethods" />
+        <item itemvalue="JUnit.MonoTest.monoSubscriberConsumerSubscription" />
+        <item itemvalue="JUnit.MonoTest.monoSubscriberConsumerComplete" />
         <item itemvalue="JUnit.MonoTest.monoSubscriberConsumer" />
-        <item itemvalue="JUnit.MonoTest.monoSubscriber" />
-        <item itemvalue="JUnit.MonoTest" />
-        <item itemvalue="JUnit.MonoTest.test" />
+        <item itemvalue="JUnit.MonoTest.monoSubscriberConsumerError" />
       </list>
     </recent_temporary>
   </component>
@@ -138,26 +139,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1397" height="216" key="GridCell.Tab.0.bottom" timestamp="1595832674962">
+    <state width="1397" height="216" key="GridCell.Tab.0.bottom" timestamp="1595847176570">
       <screen x="1366" y="0" width="1440" height="839" />
     </state>
     <state width="1380" height="215" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1440.839@0.0.1366.738" timestamp="1595702132488" />
-    <state width="1397" height="216" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595832674962" />
-    <state width="1397" height="216" key="GridCell.Tab.0.center" timestamp="1595832674962">
+    <state width="1397" height="216" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595847176570" />
+    <state width="1397" height="216" key="GridCell.Tab.0.center" timestamp="1595847176570">
       <screen x="1366" y="0" width="1440" height="839" />
     </state>
     <state width="1380" height="215" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1440.839@0.0.1366.738" timestamp="1595702132488" />
-    <state width="1397" height="216" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595832674962" />
-    <state width="1397" height="216" key="GridCell.Tab.0.left" timestamp="1595832674961">
+    <state width="1397" height="216" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595847176570" />
+    <state width="1397" height="216" key="GridCell.Tab.0.left" timestamp="1595847176570">
       <screen x="1366" y="0" width="1440" height="839" />
     </state>
     <state width="1380" height="215" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1440.839@0.0.1366.738" timestamp="1595702132488" />
-    <state width="1397" height="216" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595832674961" />
-    <state width="1397" height="216" key="GridCell.Tab.0.right" timestamp="1595832674962">
+    <state width="1397" height="216" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595847176570" />
+    <state width="1397" height="216" key="GridCell.Tab.0.right" timestamp="1595847176570">
       <screen x="1366" y="0" width="1440" height="839" />
     </state>
     <state width="1380" height="215" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1440.839@0.0.1366.738" timestamp="1595702132488" />
-    <state width="1397" height="216" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595832674962" />
+    <state width="1397" height="216" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595847176570" />
     <state x="1574" y="59" key="SettingsEditor" timestamp="1595806897310">
       <screen x="1366" y="0" width="1440" height="839" />
     </state>
