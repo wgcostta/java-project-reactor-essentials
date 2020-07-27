@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="292a6dd1-6d85-48d6-ba4c-ea8c3eb13acf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_test_3_3_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0_M1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0_M1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-reactor-essentials.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project-reactor-essentials.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/academy/devdojo/reactive/test/MonoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/academy/devdojo/reactive/test/MonoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/academy/devdojo/reactive/text/MonoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/academy/devdojo/reactive/test/MonoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/academy/devdojo/reactive/test/MonoTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +34,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.MonoTest.monoSubscriber">
+  <component name="RunManager" selected="JUnit.MonoTest.monoSubscriberConsumerError">
     <configuration name="MonoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-reactor-essentials" />
       <extension name="coverage">
@@ -79,6 +66,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MonoTest.monoSubscriberConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-reactor-essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.devdojo.reactive.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="academy.devdojo.reactive.test" />
+      <option name="MAIN_CLASS_NAME" value="academy.devdojo.reactive.test.MonoTest" />
+      <option name="METHOD_NAME" value="monoSubscriberConsumer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonoTest.monoSubscriberConsumerError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project-reactor-essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.devdojo.reactive.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="academy.devdojo.reactive.test" />
+      <option name="MAIN_CLASS_NAME" value="academy.devdojo.reactive.test.MonoTest" />
+      <option name="METHOD_NAME" value="monoSubscriberConsumerError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MonoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project-reactor-essentials" />
       <extension name="coverage">
@@ -97,6 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MonoTest.monoSubscriberConsumerError" />
+        <item itemvalue="JUnit.MonoTest.monoSubscriberConsumer" />
         <item itemvalue="JUnit.MonoTest.monoSubscriber" />
         <item itemvalue="JUnit.MonoTest" />
         <item itemvalue="JUnit.MonoTest.test" />
@@ -117,26 +138,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1397" height="216" key="GridCell.Tab.0.bottom" timestamp="1595807356560">
+    <state width="1397" height="216" key="GridCell.Tab.0.bottom" timestamp="1595832674962">
       <screen x="1366" y="0" width="1440" height="839" />
     </state>
     <state width="1380" height="215" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1440.839@0.0.1366.738" timestamp="1595702132488" />
-    <state width="1397" height="216" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595807356560" />
-    <state width="1397" height="216" key="GridCell.Tab.0.center" timestamp="1595807356560">
+    <state width="1397" height="216" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595832674962" />
+    <state width="1397" height="216" key="GridCell.Tab.0.center" timestamp="1595832674962">
       <screen x="1366" y="0" width="1440" height="839" />
     </state>
     <state width="1380" height="215" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1440.839@0.0.1366.738" timestamp="1595702132488" />
-    <state width="1397" height="216" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595807356560" />
-    <state width="1397" height="216" key="GridCell.Tab.0.left" timestamp="1595807356560">
+    <state width="1397" height="216" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595832674962" />
+    <state width="1397" height="216" key="GridCell.Tab.0.left" timestamp="1595832674961">
       <screen x="1366" y="0" width="1440" height="839" />
     </state>
     <state width="1380" height="215" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1440.839@0.0.1366.738" timestamp="1595702132488" />
-    <state width="1397" height="216" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595807356560" />
-    <state width="1397" height="216" key="GridCell.Tab.0.right" timestamp="1595807356560">
+    <state width="1397" height="216" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595832674961" />
+    <state width="1397" height="216" key="GridCell.Tab.0.right" timestamp="1595832674962">
       <screen x="1366" y="0" width="1440" height="839" />
     </state>
     <state width="1380" height="215" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1440.839@0.0.1366.738" timestamp="1595702132488" />
-    <state width="1397" height="216" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595807356560" />
+    <state width="1397" height="216" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1440.839@1366.0.1440.839" timestamp="1595832674962" />
     <state x="1574" y="59" key="SettingsEditor" timestamp="1595806897310">
       <screen x="1366" y="0" width="1440" height="839" />
     </state>

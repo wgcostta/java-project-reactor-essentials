@@ -3,6 +3,7 @@ package academy.devdojo.reactive.test;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Mono;
+import reactor.test.StepVerifier;
 
 /**
  * Reactive Streams
@@ -24,13 +25,53 @@ import reactor.core.publisher.Mono;
 @Slf4j
 public class MonoTest {
 
+
+
     @Test
     public void monoSubscriber(){
+        log.info("Teste de execução");
         String nome = "Wagner Costa";
         Mono<String> mono = Mono.just(nome).log();
 
         mono.subscribe();
-        log.info("Mono {}", mono);
+        log.info("----------------------------------");
+
+        StepVerifier.create(mono)
+                .expectNext(nome)
+                .verifyComplete();
+    }
+
+    @Test
+    public void monoSubscriberConsumer(){
         log.info("Teste de execução");
+        String nome = "Wagner Costa";
+        Mono<String> mono = Mono.just(nome).log();
+
+        mono.subscribe(s -> log.info("Value {}",s));
+        log.info("----------------------------------");
+
+        StepVerifier.create(mono)
+                .expectNext(nome)
+                .verifyComplete();
+    }
+
+    @Test
+    public void monoSubscriberConsumerError(){
+        log.info("Teste de execução");
+        String nome = "Wagner Costa";
+        Mono<String> mono = Mono.just(nome)
+                .map( s -> {throw new RuntimeException("Testing mono with error");});
+
+        mono.subscribe(s -> log.info("Value {}",s),
+                        s -> log.error("Somenthing bad happened"));
+
+        mono.subscribe(s -> log.info("Value {}",s),
+                Throwable::printStackTrace);
+
+        log.info("----------------------------------");
+
+        StepVerifier.create(mono)
+                .expectError(RuntimeException.class)
+                .verify();
     }
 }
